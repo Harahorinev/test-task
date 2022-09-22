@@ -8,5 +8,6 @@ export default {
     width,
     height,
   },
-  isSmallDevice: width < 375,
+  isIPhone: height / width > 1.53,
+  mainBackGround: '#fff',
 };
